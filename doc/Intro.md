@@ -778,7 +778,7 @@ export class MyVM{
 
 ###config.useDebounceTimeout(debounceTimeout)
 ``` javascript
-(config) => {config.useDebounceTimemout(150) }
+(config) => {config.useDebounceTimeout(150) }
 ```
 Sets the debounce timeout, in ms.  Default is 0.
 Whenever the value changes, the validation plugin will wait the assigned debounce timeout and will only evaluate if there are no subsequent changes within the allowed timeout.
